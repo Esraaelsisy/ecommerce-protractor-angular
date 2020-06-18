@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-protractor-angular",
+  "version": "1.0.0",
+  "description": "an automated test project for testing computer database website",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+
+  "dependencies": {
+    "protractor" : "^5.4.2" ,
+    "jasmine-data-provider" : "^2.2.0"
+
+  },
+  "scripts": {
+    "webdriver-update" : "./node_modules/.bin/webdriver-manager update",
+    "webriver-start" : "./node_modules/.bin/webdriver-manager start",
+    "protractor" : "./node_modules/.bin/protractor ./conf/conf.js",
+    "start":"npm run webdriver-update && npm run webriver-start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esraaelsisy/ecommerce-protractor-angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esraaelsisy/ecommerce-protractor-angular/issues"
+  },
+  "homepage": "https://github.com/Esraaelsisy/ecommerce-protractor-angular#readme"
+}
