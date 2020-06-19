@@ -15,7 +15,7 @@
   "scripts": {
     "webdriver-update" : "./node_modules/.bin/webdriver-manager update",
     "webriver-start" : "./node_modules/.bin/webdriver-manager start",
-    "protractor" : "./node_modules/.bin/protractor ./conf/conf.js",
+    "protractor" : "./node_modules/.bin/protractor ./config/config.js",
     "start":"npm run webdriver-update && npm run webriver-start"
   },
   "repository": {
