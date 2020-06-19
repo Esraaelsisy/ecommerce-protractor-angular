@@ -28,6 +28,8 @@ describe('Shop Page Test Cases', function () {
         shopPageObj.checkoutCart();
         checkoutPageObj.verifyingItemNames(['Samsung Note 8', 'iphone X']);
         checkoutPageObj.verifyingItemPrice(['Samsung Note 8'], ['85000']);
+       // checkoutPageObj.CalculatingTotal(['Samsung Note 8', 'iphone X'], 3);
+        //browser.sleep(10000);
     });
 
 
